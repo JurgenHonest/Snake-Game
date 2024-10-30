@@ -13,9 +13,11 @@
           <h1>Snake Game</h1>
           <div class="lists">
             <ul>
-              <li style="list-style: none">Score</li>
-              <li style="list-style: none">Level</li>
-              <li style="list-style: none">Health</li>
+              <li style="list-style: none">
+                Score: <span class="score"> 0</span>
+              </li>
+              <li style="list-style: none">Level:</li>
+              <li style="list-style: none">High Score: 9969</li>
             </ul>
           </div>
         </div>
@@ -26,21 +28,15 @@
             <button id="btnRestart">
               <span id="restart">Play Again!</span>
             </button>
-
             <button id="btn" onclick="startGame();">
               <span id="start">Game Start</span>
             </button>
-            <p id="message"></p>
-            <button id="btnRestart" onclick="">
-              <span id="restart" onclick="">Play Again!</span>
-            </button>
-            <canvas id="board" width="1383" height="580"></canvas>
+            <canvas id="board" width="1380" height="550"> </canvas>
           </div>
         </main>
       </nav>
     </div>
     <script src="script.js"></script>
-    <!-- <script src="dc.js"></script> -->
     <!-- Prithvi -->
   </body>
 </html>
